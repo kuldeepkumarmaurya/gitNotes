@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.git_to_local table{
+    border: 3px solid black;
+    padding: 10px;
+}
+.git_to_local table th{
+    font-size: larger;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+.git_to_local table td{
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
