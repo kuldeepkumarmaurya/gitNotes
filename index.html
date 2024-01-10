@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Notes By Kuldeep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h1 style="font-size: 40px;">Git / GitHub Notes By Kuldeep Maurya</h1>
+        <br>
+        <h1>Configuring Git </h1>
+        <div class="git_to_local">
 
+            <table>
+                <tr>
+                    <td>To Connect Local System's git with GitHub Account </td>
+                </tr>
+                
+                <tr>
+                    <th>Command</th>
+                    <th>Explanation</th>
+                </tr>
+                <br>
+                <tr>
+                    <td>git config --global user.name "MY_NAME</td>
+                    <td>Enter Your GirHub User ID </td>
+                </tr>
+                <tr>
+                    <td>git config --global user.email "MY_EMAIL</td>
+                    <td>Enter Your GirHub User EMAIL </td>
+                </tr>
+                <tr>
+                    <td>git config --list</td>
+                    <td>To Proceed the connection</td>
+                </tr>
+               
+            </table>
+        </div>
+
+        <br>
+        <h1>GitHub to Local to GitHub</h1>
+        <br>
+        <div class="git_to_local">
+
+        <table>
+            <tr>
+                <th>Commend</th>
+                <th>Explanation</th>
+            </tr>
+
+            <tr>
+                <td>git --version</td>
+                <td>Check version of git </td>
+            </tr>
+            <tr>
+                <td>git clone _URL_</td>
+                <td>To Clone a github repository in local Computer </td>
+            </tr>
+            <tr>
+                <td>ls</td>
+                <td>Check files in working Directory </td>
+            </tr>
+            <tr>
+                <td>ls -a</td>
+                <td>Check hidden Files also</td>
+            </tr>
+            <tr>
+                <td>mkdir _Folder_Name_</td>
+                <td>To create new folder in working repository by CMD</td>
+            </tr>
+
+            <tr>
+                <td>git status</td>
+                <td>Check current working status of files like modified and new added files</td>
+            </tr>
+            <tr>
+                <td>git add __FILE_NAME__</td>
+                <td>To updated all changes done in local folder</td>
+            </tr>
+            <tr>
+                <td>git commit -m "__MESSAGE_OF_CHANGES_"</td>
+                <td>To commit all changes performed on local (save)</td>
+            </tr>
+            <tr>
+                <td>git push origin main</td>
+                <td>To push a changed folders and files on github repository</td>
+            </tr>
+        </table>
+    </div>
+<br>
+<br>
+    <h1>Local to GitHub / Init Command</h1>
+        <div class="git_to_local">
+
+            <table>
+                
+                <tr>
+                    <th>Commend</th>
+                    <th>Explanation</th>
+                </tr>
+                <br>
+                <tr>
+                    <td>git init</td>
+                    <td>Use to connect any folder with Git Controls</td>
+                </tr>
+                <tr>
+                    <td>git remote add origin _URL_</td>
+                    <td>Use to connect any git Controled Folder to GitHub Repository</td>
+                </tr>
+                <tr>
+                    <td>git remote -v</td>
+                    <td>Use to verify a connection of folder with GitHub Repository</td>
+                </tr>
+                <tr>
+                    <td>git branch</td>
+                    <td>Use to Check connecterd repository branch</td>
+                </tr>
+                <tr>
+                    <td>git branch -M _NAME_</td>
+                    <td>Use to rename beanch name</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Types of Files -->
+
+        <h1>Types of Files Status</h1>
+        <div class="git_to_local">
+
+            <table>
+                
+                <tr>
+                    <th>Types</th>
+                    <th>Explanation</th>
+                </tr>
+                <br>
+                <tr>
+                    <td>Untracked</td>
+                    <td>When we create new file in working directory after cloneing repository and not perfotm add  command</td>
+                </tr>
+                <tr>
+                    <td>Modified</td>
+                    <td>When we perform any changes in  existing in working directory after cloneing repository and not perfotm add  command</td>
+                </tr>
+                <tr>
+                    <td>Staged</td>
+                    <td>File is ready to be committed</td>
+                </tr>
+                <tr>
+                    <td>Unmodified</td>
+                    <td> No any single Changed in working directory</td>
+                </tr>
+            </table>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
